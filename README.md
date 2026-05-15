@@ -1,4 +1,4 @@
-# Chochchupatla Navya Varshini – Personal Portfolio Website
+# Personal Portfolio Website – Chochchupatla Navya Varshini
 
 ## Project Overview
 
@@ -12,13 +12,13 @@ It includes interactive animations, parallax scrolling effects, responsive layou
 
 ## Live Website
 
-Live Portfolio URL: https://YOUR-VERCEL-LINK.vercel.app
+Live Portfolio URL: https://portfolio-project-blush-seven.vercel.app
 
 ---
 
 ## GitHub Repository
 
-Repository URL: https://github.com/Navyavarshini/YOUR-REPOSITORY-NAME
+Repository URL: https://github.com/Navyavarshini/Portfolio-Project
 
 ---
 
@@ -260,13 +260,13 @@ portfolio-project/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Navyavarshini/YOUR-REPOSITORY-NAME.git
+git clone https://github.com/Navyavarshini/Portfolio-Project.git
 ```
 
 ### Navigate Into Project
 
 ```bash
-cd YOUR-REPOSITORY-NAME
+cd Portfolio-Project
 ```
 
 ### Install Dependencies
@@ -313,6 +313,11 @@ Deployed using:
 
 Automatic deployment is connected to GitHub, so every push to the main branch triggers a new deployment.
 
+
+Production URL:
+https://portfolio-project-blush-seven.vercel.app
+
+
 ---
 
 ## Assignment Requirements Checklist
@@ -353,6 +358,16 @@ Automatic deployment is connected to GitHub, so every push to the main branch tr
 - HTTPS accessible live site
 
 ---
+
+## Lighthouse Audit Scores
+
+Production deployment audit results:
+
+- Performance: 81
+- Accessibility: 98
+- Best Practices: 100
+- SEO: 100
+
 
 ## License
 
