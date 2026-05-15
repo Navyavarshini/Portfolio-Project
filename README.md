@@ -1,16 +1,359 @@
-# React + Vite
+# Chochchupatla Navya Varshini – Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a fully responsive and animated personal portfolio website built from scratch to showcase my skills, projects, achievements, and professional profile as a Full Stack Developer and Artificial Intelligence & Machine Learning student.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio was designed and developed using a modern frontend stack with a focus on performance, responsiveness, accessibility, clean code structure, and polished user experience.
 
-## React Compiler
+It includes interactive animations, parallax scrolling effects, responsive layouts for multiple screen sizes, project showcases, downloadable resume access, and professional contact links.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Live Website
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live Portfolio URL: https://YOUR-VERCEL-LINK.vercel.app
+
+---
+
+## GitHub Repository
+
+Repository URL: https://github.com/Navyavarshini/YOUR-REPOSITORY-NAME
+
+---
+
+## Author
+
+**Chochchupatla Navya Varshini**
+
+Full Stack Developer | AI & ML Student
+
+Email: navyavarshini005@gmail.com
+
+GitHub: https://github.com/Navyavarshini
+
+LinkedIn: https://www.linkedin.com/in/navyavarshini
+
+---
+
+## Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+
+### Animations & Motion
+- Motion (Framer Motion)
+- React Scroll Parallax
+
+### Icons & UI
+- React Icons
+- Google Fonts (Inter, Space Grotesk)
+
+### Development Tools
+- VS Code
+- Git
+- GitHub
+- npm
+
+---
+
+## Features Implemented
+
+### Fully Responsive Design
+The website is fully responsive and optimized for:
+
+- Mobile (375px)
+- Tablet (768px)
+- Desktop (1280px)
+
+Responsive features include:
+
+- Mobile hamburger navigation
+- Adaptive layouts
+- Responsive typography
+- Flexible grid-based sections
+- Overflow prevention for horizontal scrolling
+
+---
+
+### Hero Section
+Includes:
+
+- Full name
+- Professional title
+- Personal introduction
+- "View Projects" call-to-action button
+- Download Resume button
+- Animated hero layout
+- Decorative parallax background effects
+
+---
+
+### About Section
+Includes:
+
+- Professional biography
+- Educational background
+- Experience summary
+- Personal developer profile
+
+---
+
+### Skills Section
+Visual skills showcase including:
+
+- Frontend Technologies
+- Backend Technologies
+- Programming Languages
+- Databases
+- Developer Tools
+- AI / Machine Learning Libraries
+
+---
+
+### Projects Section
+Featured real-world projects:
+
+#### 1. Loan Default Predictor
+Machine learning project for credit risk prediction using large-scale lending datasets.
+
+Technologies:
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- PCA
+- SMOTE
+
+GitHub:
+https://github.com/Navyavarshini/Loan-Default-Predictor
+
+---
+
+#### 2. Payment Gateway Platform
+Full-stack payment gateway platform supporting secure transactions and merchant workflows.
+
+Technologies:
+- React
+- Node.js
+- Express.js
+- PostgreSQL
+- Docker
+
+GitHub:
+https://github.com/Navyavarshini/Payment-Gateway
+
+---
+
+#### 3. Multi-Tenant SaaS Platform
+Project management SaaS platform with authentication, authorization, analytics, and tenant isolation.
+
+Technologies:
+- React
+- Tailwind CSS
+- Node.js
+- Express.js
+- PostgreSQL
+
+GitHub:
+https://github.com/Navyavarshini/Saas_Platform
+
+---
+
+### Achievements Section
+Includes:
+
+- 400+ LeetCode problems solved
+- Top 40% global LeetCode ranking
+- Technical quiz competition achievement
+- AWS certifications
+
+---
+
+### Contact Section
+Includes clickable contact methods:
+
+- Email (mailto link)
+- GitHub profile
+- LinkedIn profile
+
+---
+
+## Animation Features
+
+This project includes advanced motion effects as required:
+
+### Parallax Scrolling
+Implemented decorative parallax background motion using:
+
+- React Scroll Parallax
+
+---
+
+### On-Scroll Animations
+Implemented scroll-triggered animations using Motion:
+
+- Skills section reveal
+- Projects staggered reveal
+- Achievements reveal
+- Contact section reveal
+
+---
+
+### Accessibility Support
+Accessibility support includes reduced motion handling:
+
+- `prefers-reduced-motion` media query implemented
+- animations reduced for accessibility users
+
+---
+
+## SEO & Performance
+Implemented:
+
+- Meta title
+- Meta description
+- Viewport configuration
+- semantic HTML structure
+- optimized component structure
+- responsive design best practices
+
+---
+
+## Project Structure
+
+```bash
+portfolio-project/
+│
+├── public/
+│   └── Navya-Resume.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── data/
+│   │   └── portfolioData.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## Installation & Local Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Navyavarshini/YOUR-REPOSITORY-NAME.git
+```
+
+### Navigate Into Project
+
+```bash
+cd YOUR-REPOSITORY-NAME
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## Production Build
+
+Create optimized production build:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Deployment
+
+Deployed using:
+
+- Vercel
+
+Automatic deployment is connected to GitHub, so every push to the main branch triggers a new deployment.
+
+---
+
+## Assignment Requirements Checklist
+
+### Functional Requirements
+- Fully responsive layout
+- Sticky responsive navigation
+- Hero section
+- About section
+- Skills section
+- Projects section
+- Contact section
+- Footer
+- Minimum 3 real projects
+- Functional GitHub links
+- Functional LinkedIn link
+- Functional email link
+- Resume download
+
+### Animation Requirements
+- Minimum 1 parallax scrolling effect
+- Minimum 3 on-scroll animations
+- Smooth transform/opacity animations
+
+### Accessibility Requirements
+- prefers-reduced-motion support
+- semantic HTML structure
+- accessible navigation controls
+
+### Performance / SEO Requirements
+- SEO metadata
+- responsive performance optimization
+- production build verification
+
+### Deployment Requirements
+- public GitHub repository
+- public live deployment
+- HTTPS accessible live site
+
+---
+
+## License
+
+This project was developed for academic portfolio assignment submission and professional showcase purposes.
