@@ -56,7 +56,7 @@ download
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-slate-900 border-t border-slate-800">
+        <div className="lg:hidden bg-slate-900 border-t border-slate-800">
           <div className="flex flex-col px-6 py-4 gap-4">
             {navLinks.map((link) => (
               <a
