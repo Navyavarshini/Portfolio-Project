@@ -369,6 +369,18 @@ Production deployment audit results:
 - SEO: 100
 
 
+## Docker Support
+
+This project also supports Docker containerization for consistent local execution.
+
+Build Docker image:
+
+```bash
+docker build -t navya-portfolio .
+
+
+docker run -p 4173:4173 navya-portfolio
+
 ## License
 
 This project was developed for academic portfolio assignment submission and professional showcase purposes.
